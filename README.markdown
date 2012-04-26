@@ -22,7 +22,7 @@ an install it:
 you can create this content in `config/initializes/social_share_button.rb`:
 
     SocialShareButton.configure do |config|
-      config.allow_sites = %w(twitter facebook weibo douban)
+      config.allow_sites = %w(twitter facebook weibo douban renren)
     end
     
 ## Usage

@@ -17,4 +17,6 @@ window.SocialShareButton =
         SocialShareButton.openUrl("http://www.facebook.com/sharer.php?t=#{title}&u=#{url}")
       when "qq"
         SocialShareButton.openUrl("http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=#{url}")
+      when "renren"
+        SocialShareButton.openUrl("http://www.connect.renren.com/share/sharer?url=#{url}&title=#{title}")
     false

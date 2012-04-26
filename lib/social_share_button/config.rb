@@ -8,8 +8,8 @@ module SocialShareButton
   
   class Config
     # enable social sites to share, 
-    # * default : twitter facebook weibo douban
-    # * site support: twitter facebook weibo douban
+    # * default : twitter facebook weibo douban renren
+    # * site support: twitter facebook weibo douban renren
     attr_accessor :allow_sites
     
     def initialize
@@ -18,5 +18,5 @@ module SocialShareButton
 end
 
 SocialShareButton.configure do |conf|
-  conf.allow_sites = %w(twitter facebook weibo douban qq)
+  conf.allow_sites = %w(twitter facebook weibo douban qq renren)
 end
